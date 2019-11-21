@@ -222,8 +222,26 @@ body{
 
 /* ofline class */
 
+.offline_class{
+  margin: 50px auto;
+}
+
 .offline_class p{
   font-size: 24px;
+}
+
+.color_bg{
+  height: 438px;
+  width: 400px;
+  background: #D9EDFF;
+  border-radius: 10px;
+}
+
+.physical_img{
+  position: absolute;
+  top: 10%;
+  left:10%;
+  width: 80%;
 }
 
 /*money*/
