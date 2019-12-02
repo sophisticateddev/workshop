@@ -235,7 +235,6 @@ body{
   height: 438px;
   width: 400px;
   background: #D9EDFF;
-  border-radius: 10px;
 }
 
 .physical_img{
@@ -475,6 +474,105 @@ text-decoration: none;
   font-size: 16px;
 }
 
+/*Summer workshop*/
+.hero-summer{
+  margin-top: 70px;
+}
+
+.summer-hero-overlay{
+  position: absolute;
+}
+
+.summer-hero-text{
+  margin-top: -80px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.summer-hero-text h3{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.classes a{
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.classes a:hover{
+  text-decoration: none;
+}
+
+.card-price{
+  color: var(--primary-color);
+}
+
+.class-status-upcoming{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(50, 190, 81, 0.8);
+  border-radius: 0 5px 0 0;
+  color: #fff;
+  padding: 10px;
+}
+
+.class-status-closed{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(255, 171, 13, 0.8);
+  border-radius: 0 5px 0 0;
+  color: #fff;
+  padding: 10px;
+}
+
+.interest.container-fluid > div > div:nth-child(1){
+  padding: 0;
+}
+
+.interest.container-fluid > div > div:nth-child(2){
+  padding-right: 130px;
+  padding-left: 50px;
+}
+.interest.container-fluid > div > div:nth-child(2) h3{
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--blue-color);
+}
+
+.interest.container-fluid > div > div:nth-child(2) > form > button{
+  width: 100%;
+}
+
+.interest{
+  margin-top: 80px;
+}
+
+/*single-summer*/
+
+.single-summer{
+  margin: 100px;
+}
+
+.single-summer > div > div:nth-child(2) > form > a{
+  width: 100%;
+}
+
+/* Payment page*/
+
+.single-summer > div > div:nth-child(2) > a{
+  width: 100%;
+}
+
+.single-summer > div > div:nth-child(2) > div > div:nth-child(1) > p:nth-child(3) > span {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+}
 
   @media only screen and (max-width: 768px) {
   .heading{
@@ -488,6 +586,10 @@ text-decoration: none;
 
   .header-content{
     text-align: center;
+  }
+
+  .nav-item{
+    margin-bottom: 10px;
   }
 
   .nav-search{
@@ -555,4 +657,50 @@ text-decoration: none;
   width: 100%;
   margin-bottom: 10px;
 }
+
+/*-- Summer workshop--*/
+.summer-hero{
+  width: auto;
+  height: 300px;
+  margin-top: 70px;
+}
+
+.summer-hero-overlay{
+  top: 140px;
+}
+
+.overlay-img{
+  height: 300px;
+}
+
+.summer-hero-text{
+  width: 80%;
+}
+
+.summer-hero-text h3{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+.heading h1{
+  font-size: 24px;
+}
+
+.interest.container-fluid > div > div:nth-child(2){
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+/*Payment-page*/
+
+.single-summer{
+  margin-top: 150px;
+  margin-left:10px;
+}
+
 }
